@@ -6,6 +6,13 @@
       "dom.iterable",
       "esnext"
     ],
+
+    "plugins": [
+      {
+          "name": "@styled/typescript-styled-plugin",
+          "tags": ["styled", "css", "sty"]
+      }
+  ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
